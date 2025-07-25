@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-orange-400 via-red-400 to-pink-400 relative overflow-hidden">
-      {/* Animated background elements */}
+      {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-20 h-20 bg-white bg-opacity-10 rounded-full animate-pulse"></div>
         <div className="absolute top-40 right-20 w-16 h-16 bg-white bg-opacity-5 rounded-full animate-bounce delay-1000"></div>
@@ -19,26 +19,26 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Name Animation */}
+          {/* Animasi Nama */}
           <h1 
             className={`text-5xl md:text-7xl font-bold text-white mb-6 transform transition-all duration-1000 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            Dendy Setiawan
+            Dendy Ananda Putra
           </h1>
 
-          {/* Subtitle Animation */}
+          {/* Animasi Deskripsi */}
           <p 
             className={`text-xl md:text-2xl text-white text-opacity-90 mb-12 transform transition-all duration-1000 delay-300 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            I'm a front-end developer specializing in building interactive user interfaces.
+            Saya seorang Frontend Developer yang berfokus pada pengembangan aplikasi web yang responsif dan interaktif.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-16">
-            {/* Profile Image */}
+            {/* profil Animasi  */}
             <div 
               className={`transform transition-all duration-1000 delay-500 ${
                 isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Heart } from 'lucide-react';
+import React from "react";
+import { Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="flex items-center gap-2 mb-4 md:mb-0">
             <span className="text-gray-400">Made with</span>
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
-            <span className="text-gray-400">by Dendy Setiawan</span>
+            <span className="text-gray-400">by Dendy Ananda Putra</span>
           </div>
-          
+
           <div className="text-gray-400 text-sm">
             © 2025 All rights reserved.
           </div>
